@@ -1,6 +1,7 @@
 .header {
     background-color: rgb(50, 167, 145);
-    display: flex;}
+    display: flex;
+    justify-content: space-between;}
 
 .trybewarts-login {
     display: flex;}
@@ -15,3 +16,11 @@
 
 main {
     display: flex;}
+
+#trybewarts-forms-logo {
+    height: 500px;
+}
+
+.trybewarts-header-logo{
+    height: 100px;
+}
