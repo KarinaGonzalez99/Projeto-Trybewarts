@@ -20,10 +20,22 @@
 </header>
 
     <main>
-        <form id='evaluation-form' action="" method="GET"></form>
+        <form id='evaluation-form' action="" method="GET"><h2>Formulário de Avaliação</h2>
+            <section>
+                <input type="text" id="input-name" name="name" placeholder="Nome" autocomplete="on" required>
+                <input type="text" id="input-lastname" name="sobrenome" placeholder="Sobrenome" autocomplete="on" required>
+                <input type="email" id="input-email" name="email" placeholder="Email" autocomplete="on" required>
+            </section>
+            <section>
+                <select id="house" name="selecione">
+                    <option value="Gitnória" id="gitnoria-house">Gitnória</option> 
+                    <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+                    <option value="Corvinode" id="corvinode-house">Corvinode</option>
+                    <option value="Pytherina" id="pytherina-house">Pytherina</option>
+                </select> 
+            </section>
+        </form>
 
-
-        
         <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg">
     </main>
 
