@@ -9,38 +9,135 @@
 
 </head>
 <body>
-    <header class="header"> <!-- requisito 1 -->
-        <img class="trybewarts-header-logo" src='images/trybewarts-header-logo.svg'> <!-- requisito 2 -->
-        <h1 id="trybewarts-header-title">Trybewarts</h1><!-- requisito 4 -->
-        <form class="trybewarts-login" action="" method="GET"><!-- requisito 3 -->
-            <input type="email" id="Email" name='email' placeholder="Email" autocomplete="on" required><!-- requisito 3 -->
-            <input type='password' id="Password" name='password' placeholder="Senha" required><!-- requisito 3 -->
-            <button id='botao' type="submit">Entrar</button><!-- requisito 3 -->
-        </form><!-- requisito 3 -->
+    <!-- requisito 1 -->
+    <header class="header"> 
+    <!-- requisito 1 -->
+
+        <!-- requisito 2 -->
+        <img class="trybewarts-header-logo" src='images/trybewarts-header-logo.svg'>
+        <!-- requisito 2 -->    
+
+
+        <!-- requisito 4 -->
+        <h1 id="trybewarts-header-title">Trybewarts</h1>
+        <!-- requisito 4 -->
+
+
+        <!-- requisito 3 -->
+        <form class="trybewarts-login" action="" method="GET">
+            <input type="email" id="Email" name='email' placeholder="Email" autocomplete="on" required>
+            <input type='password' id="Password" name='password' placeholder="Senha" required>
+            <button id='botao' type="submit">Entrar</button>
+        </form>
+        <!-- requisito 3 -->
+
+
 </header>
 
     <main>
-        <form id='evaluation-form' action="" method="GET"><h2>Formulário de Avaliação</h2><!-- requisito 5 -->
+        <!-- requisito 5 -->
+        <form id='evaluation-form' action="" method="GET"><h2>Formulário de Avaliação</h2>
+        <!-- requisito 5 -->    
+        
+
+            <!-- requisito 8 e 10 -->
             <section>
-                <input type="text" id="input-name" name="name" placeholder="Nome" autocomplete="on" required><!-- requisito 8 --> <!-- requisito 10 -->
-                <input type="text" id="input-lastname" name="sobrenome" placeholder="Sobrenome" autocomplete="on" required><!-- requisito 8 --> <!-- requisito 10 -->
-                <input type="email" id="input-email" name="email" placeholder="Email" autocomplete="on" required><!-- requisito 8 -->
+                <input type="text" id="input-name" name="name" placeholder="Nome" autocomplete="on" required>
+                <input type="text" id="input-lastname" name="sobrenome" placeholder="Sobrenome" autocomplete="on" required>
             </section>
+            <!-- requisito 8 e 10 -->
+
+
+            <!-- requisito 8 e 11 -->
             <section>
-                <select id="house" name="selecione"><!-- requisito 9 -->
-                    <option value="Gitnória" id="gitnoria-house">Gitnória</option><!-- requisito 9 -->
-                    <option value="Reactpuff" id="reactpuff-house">Reactpuff</option><!-- requisito 9 -->
-                    <option value="Corvinode" id="corvinode-house">Corvinode</option><!-- requisito 9 -->
-                    <option value="Pytherina" id="pytherina-house">Pytherina</option><!-- requisito 9 -->
-                </select> <!-- requisito 9 -->
+                <input type="email" id="input-email" name="email" placeholder="Email" autocomplete="on" required>
+            <!-- requisito 8 e 11 -->
+
+
+            <!-- requisito 9 e 11-->
+                <select id="house" name="selecione"><!-- requisito 9 e 11-->
+                    <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+                    <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+                    <option value="Corvinode" id="corvinode-house">Corvinode</option>
+                    <option value="Pytherina" id="pytherina-house">Pytherina</option>
+                </select> 
             </section>
-             
+            <!-- requisito 9 e 11-->
+
+            
+            <!-- requisito 12 -->
+            <section>
+                <label id="label-family">Qual sua família?<br></label>
+                    <input type="radio" id="frontend" name="family" value="Frontend">Frontend<br>
+                    <input type="radio" id="backend" name="family" value="Backend">Backend</label><br>
+                    <input type="radio" id="fullStack" name="family" value="FullStack">FullStack</label><br>
+            </section>
+            <!-- requisito 12 -->
+
+
+            <!-- requisito 13 -->
+            <section>
+                <label for="HoFs" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label><br>
+                    <input type="checkbox" class="subject" id="HoFs" value="HoFs">HoFs</label><br>
+                <label for="Jest">
+                    <input type="checkbox" class="subject" id="Jest" value="Jest">Jest</label><br>
+                <label for="Promises">
+                    <input type="checkbox" class="subject" id="Promises" value="Promises">Promises</label><br>
+                <label for="React">
+                    <input type="checkbox" class="subject" id="React" value="React">React</label><br>
+                <label for="SQL">
+                    <input type="checkbox" class="subject" id="SQL" value="SQL">SQL</label><br>
+                <label for="Python">
+                    <input type="checkbox" class="subject" id="Python" value="Python">Python</label><br>
+            </section>
+            <!-- requisito 13 -->
+
+
+            <!-- requisito 14 -->
+            <section>
+                <label id="label-rate">Como você avalia a Trybewarts?</label><br><input type="radio" id="1" name="rate" value='1'>1
+                <input type="radio" name="rate" value='2'>2
+                <input type="radio" name="rate" value='3'>3
+                <input type="radio" name="rate" value='4'>4
+                <input type="radio" name="rate" value='5'>5
+                <input type="radio" name="rate" value='6'>6
+                <input type="radio" name="rate" value='7'>7
+                <input type="radio" name="rate" value='8'>8
+                <input type="radio" name="rate" value='9'>9
+                <input type="radio" name="rate" value='10'>10
+            </section>
+            <!-- requisito 14 -->
+
+
+            <!-- requisito 15 -->
+            <section>
+                <label class="textarea">Deixe seu comentário:</label><br>
+                <textarea name="areatexto" id="textarea" cols="50" rows="10" maxlength="500"></textarea>
+                <span id="counter">500</span>
+            </section>
+            <!-- requisito 15 -->
+
+
+            <!-- requisito 16 e 17 -->
+            <section>
+                <label for="agreement" id="label-infos">Você concorda com o uso das informações acima?
+                <input type="checkbox" name="agreement" id="agreement"></label>
+                <button id='submit-btn' class="btnEntrar" type="submit" disabled>Enviar</button>
+            </section>
+            <!-- requisito 16 e 17 -->
+            
         </form>
 
-        <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg"><!-- requisito 7 -->
+        <!-- requisito 7 -->
+        <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg">
+        <!-- requisito 7 -->
+
     </main>
 
-    
+    <!-- requisito 19 -->
+    <footer><strong>Direitos reservados à Trybewarts©</strong></footer>
+    <!-- requisito 19 -->
+
     
 <script src="script.js"></script>
 </body>

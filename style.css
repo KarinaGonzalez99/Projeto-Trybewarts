@@ -22,3 +22,7 @@ main {
 
 .trybewarts-header-logo {
   height: 100px;}
+
+footer {
+  text-align: center;
+  background-color: rgb(50, 167, 145);}
