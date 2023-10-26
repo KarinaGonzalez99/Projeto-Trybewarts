@@ -1,4 +1,7 @@
 # Projeto Trybewarts
+<p align="center">
+  <img src="https://media.tenor.com/9X-I0mcc_OgAAAAC/dog-funny.gif" alt="GIF divertido de auau"/>
+</p>
 
 ## Visão Geral
 O Projeto Trybewarts é uma aplicação web inspirada no universo mágico de Harry Potter. Esta aplicação permite aos estudantes de Trybewarts preencher um formulário mágico para se tornarem parte da escola de magia e bruxaria. Com um layout personalizado, campos de preenchimento, opções de seleção e validação de dados, os futuros bruxos e bruxas podem se inscrever para a aventura de suas vidas!
